@@ -1,13 +1,15 @@
 import { useState } from "react";
+import { useGlobalContext } from "../context/globalContext";   
 
 function Search(){
+    const {handleSubmit, search, setSearch} = useGlobalContext();
+    
+    //const [search, setSearch] = useState("");
 
-    const [search, setSearch] = useState("");
-
-    const handleSubmit = (e) => {
+    /*const handleSubmit = (e) => {
         e.preventDefault();
         console.log(search);
-    }
+    }*/
 
     return (
         <form action="" onSubmit={handleSubmit}>
