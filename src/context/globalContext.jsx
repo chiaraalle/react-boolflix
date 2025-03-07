@@ -31,7 +31,13 @@ const GlobalProvider = ({children}) => {
         })
         .catch(error => console.log(error))
     }
-
+ 
+    useEffect(() => {
+        console.log("dati dei film:" + movies);
+        console.log("dati delle serie:" + series);
+        console.log("apikey:" + apiKey);
+        console.log("apiUrl:" + apiUrl);
+     }, [movies])
 
     const value = {
         search,
