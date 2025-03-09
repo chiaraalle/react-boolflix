@@ -15,9 +15,7 @@ function Main() {
         }
         
         return result;
-    };
-    
-
+    }; 
 
     return(
         <main>

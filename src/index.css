@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile per Header */
+header {
+    background-color: #313631;  
+    color: white; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    z-index: 10;  
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    width: 250px;
+   
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color:#45a049 ;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #71ec77;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;  
+}
+
+
+input:focus {
+    outline: none;
+    border: 2px solid #45a049;  
+}
+
+/* Stile per Main */
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow-x: scroll; 
+    gap: 15px;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+
+/* Stile per i film */
+li {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 220px; 
+    text-align: center;
+    flex-shrink: 0;
+}
+
+li:hover {
+    transform: translateY(-10px);
+}
+
+li img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+li img.flag {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.stars svg {
+    color: gold;
+    font-size: 1.2rem;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #333;
+    font-size: 2rem;
+}
+

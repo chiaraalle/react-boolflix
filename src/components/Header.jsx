@@ -3,7 +3,7 @@ import Search from "./Search";
 function Header() {
     return(
         <header>        
-            <h1>Titolo</h1>
+            <h1>Boolflix</h1>
             <Search />
         </header>
     )
